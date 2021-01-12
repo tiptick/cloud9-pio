@@ -6,7 +6,7 @@ MAINTAINER tiptick
 # ------------------------------------------------------------------------------
 # Install platformIO
 RUN apt-get update
-RUN apt-get install -y python3 python3-dev python3-pip curl
+RUN apt-get install -y python3 python3-dev python3-pip curl openssh-client
 RUN sudo pip3 install -U platformio
 
 # ------------------------------------------------------------------------------
